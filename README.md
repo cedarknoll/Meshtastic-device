@@ -49,6 +49,12 @@ Prebuilt binaries for the supported radios are available in our [releases](https
 
 Please post comments on our [group chat](https://meshtastic.discourse.group/) if you have problems or successes.
 
+**A Word of Caution**
+
+Make sure you flash the correct firmware file for your board. Some of the hardware naming schemes can be confusing/misleading. Please use the hardware section of our [wiki](https://github.com/meshtastic/Meshtastic-device/wiki/Hardware-Information) for identifying your board.
+
+*Example: If you have a T-Beam, please flash the tbeam (firmware-tbeam-US-X.X.X.bin) firmware and NOT the lora32 (firmware-ttgo-lora32-v1-US-X.X.X.bin) firmware.*
+
 ### Installing from a GUI - Windows and Mac
 
 1. Download and unzip the latest Meshtastic firmware [release](https://github.com/meshtastic/Meshtastic-esp32/releases).
